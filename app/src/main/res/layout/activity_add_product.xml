@@ -129,7 +129,21 @@
             android:hint="Thông tin"
             android:inputType="text" />
     </LinearLayout>
-
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageShow"
+        android:layout_gravity="center"
+        android:maxHeight="100dp"
+        android:maxWidth="100dp"
+        />
+    <Button
+        android:layout_marginTop="16dp"
+        android:id="@+id/buttonAnh"
+        android:layout_width="match_parent"
+        android:background="#B5C0FB"
+        android:layout_height="wrap_content"
+        android:text="Chọn hình ảnh" />
     <Button
         android:id="@+id/buttonSubmit"
         android:layout_width="match_parent"

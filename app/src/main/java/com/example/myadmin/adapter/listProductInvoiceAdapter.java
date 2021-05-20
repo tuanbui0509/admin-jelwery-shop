@@ -38,7 +38,7 @@ public class listProductInvoiceAdapter extends RecyclerView.Adapter<listProductI
         Glide.with(context).load(listProductInvoice.get(position).getImage1()).into(holder.sanpham_image);
         holder.name.setText(listProductInvoice.get(position).getName());
         holder.quality.setText(String.valueOf("SL: "+listProductInvoice.get(position).getQuantity()));
-        holder.price.setText(String.valueOf("Giá: "+listProductInvoice.get(position).getPrice()));
+        holder.price.setText(String.valueOf("Giá: "+listProductInvoice.get(position).getPrice())+"$");
     }
 
     @Override

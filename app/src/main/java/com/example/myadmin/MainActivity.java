@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         invoice = findViewById(R.id.invoice);
         product = findViewById(R.id.product);
-        user = findViewById(R.id.user);
+//        user = findViewById(R.id.user);
         chart = findViewById(R.id.chart);
 
 
@@ -47,13 +47,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        user.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, ListUserActivity.class);
-                startActivity(intent);
-            }
-        });
+//        user.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(MainActivity.this, ListUserActivity.class);
+//                startActivity(intent);
+//            }
+//        });
     }
 
 }

@@ -55,7 +55,7 @@ public class SanPhamAdapter extends RecyclerView.Adapter<SanPhamAdapter.SanPhamV
         Glide.with(context).load(sanPhamList.get(position).getImage1()).into(holder.sanpham_image);
         holder.name.setText(sanPhamList.get(position).getName());
         holder.quality.setText(("SL: " + sanPhamList.get(position).getStock()));
-        holder.price.setText(("Giá: " + sanPhamList.get(position).getPrice()));
+        holder.price.setText(("Giá: " + sanPhamList.get(position).getPrice()+"$"));
         if(display)
             holder.btnDelete.setText("Ẩn");
         else
